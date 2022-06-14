@@ -34,6 +34,15 @@ dependencies {
     testImplementation 'org.testcontainers:junit-jupiter'
     // https://mvnrepository.com/artifact/net.minidev/json-smart
     implementation group: 'net.minidev', name: 'json-smart', version: '2.4.8'
+    // https://mvnrepository.com/artifact/org.testcontainers/testcontainers
+    implementation group: 'org.testcontainers', name: 'testcontainers', version: '1.17.2'
+
+    // https://mvnrepository.com/artifact/org.projectreactor/reactor-core
+    implementation 'org.projectreactor:reactor-core:1.1.6.RELEASE'
+// https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    implementation 'io.projectreactor:reactor-core:3.4.18'
+// https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
+    implementation 'org.springframework.security:spring-security-core:5.7.1'
 
 }
 
