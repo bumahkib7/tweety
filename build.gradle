@@ -43,6 +43,19 @@ dependencies {
     implementation 'io.projectreactor:reactor-core:3.4.18'
 // https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
     implementation 'org.springframework.security:spring-security-core:5.7.1'
+// https://mvnrepository.com/artifact/org.springframework/spring-webflux
+    implementation 'org.springframework:spring-webflux:5.3.20'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat
+    implementation 'org.springframework.boot:spring-boot-starter-tomcat:2.7.0'
+// https://mvnrepository.com/artifact/org.opendaylight.controller.thirdparty/org.apache.catalina.filters.CorsFilter
+    implementation 'org.opendaylight.controller.thirdparty:org.apache.catalina.filters.CorsFilter:7.0.42'
+// https://mvnrepository.com/artifact/com.thetransactioncompany/cors-filter
+    implementation 'com.thetransactioncompany:cors-filter:2.10'
+// https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
+    implementation 'org.springframework.security:spring-security-core:5.7.1'
+// htt// https://mvnrepository.com/artifact/org.springframework.security.oauth/spring-security-oauth2
+//implementation 'org.springframework.security.oauth:spring-security-oauth2:2.5.2.RELEASE'ps://mvnrepository.com/artifact/org.springframework.security.oauth/spring-security-oauth2
+    implementation 'org.springframework.security.oauth:spring-security-oauth2:2.5.2.RELEASE'
 
 }
 
